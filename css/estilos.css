@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    background-color:white;   
+}
+a{
+    color:white;
+    text-decoration:none;
+
+}
+ul{
+    list-style:none;
+}
+.cabecera{
+    background-color:#c20e3e;
+    padding: 16px;
+    border:7px solid black;
+}
+
+.navegacion_lista{
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titulo{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
