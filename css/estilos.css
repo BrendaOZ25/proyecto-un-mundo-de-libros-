@@ -11,9 +11,9 @@ ul{
     list-style:none;
 }
 .cabecera{
-    background-color:#c20e3e;
+    background-color:#5f0c96;
     padding: 16px;
-    border:7px solid black;
+    border:7px solid rgb(112, 58, 7);  
 }
 
 .navegacion_lista{
@@ -24,9 +24,56 @@ ul{
 }
 
 .titulo{
-    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 55px;
     text-align: center;
+    color:rgb(221, 108, 15);
 }
+
+.secciones{
+    min-height:50vh;
+    background-image: url("/Documentacion/thumb-1920-26102.jpg");
+    background-size:cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+.libros{
+    background-color: rgba(152, 90, 238, 0.2);
+    padding: 16px;
+    margin:20px;
+    margin-top:0;
+    margin-block-end:0;
+    text-align:center;
+    display:flex;
+    gap: 30px;
+    color:white;
+}
+
+.seccion_contenido{
+    width: 50%;
+}
+
+.subtitulo{
+    flex-direction: end;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+
+.pie_de_pagina{
+    background-color:#5f0c96;
+    padding: 16px;
+    border:7px solid rgb(112, 58, 7);
+    color:rgb(221, 108, 15);
+}
+
+.iconos{
+    padding:16px;   
+}
+
+
+
 
 
 
