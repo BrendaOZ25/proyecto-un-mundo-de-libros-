@@ -51,13 +51,29 @@ ul{
 }
 
 .seccion_contenido{
-    width: 50%;
+  width:100%;
 }
 
 .subtitulo{
     flex-direction: end;
     flex-wrap:wrap;
     justify-content:center;
+}
+
+.parrafo{
+    font-size: 20px;
+}
+
+.boton{
+    display: inline-block;
+    background-color: rgb(221, 108, 15);
+    color:black;
+    padding:10px 20px;
+    border-radius: 20px;
+}
+
+.imagen{
+    vertical-align:super;
 }
 
 
@@ -69,9 +85,47 @@ ul{
 }
 
 .iconos{
-    padding:16px;   
+    padding:16;
 }
 
+@media(max-width:992px){
+    .libros{
+        background-color: rgba(152, 90, 238, 0.2);
+        flex-direction: column-reverse;
+        text-align:center;
+        display:flex;
+        color:white;
+        vertical-align:baseline;
+    }
+
+    .subtitulo{
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        vertical-align: baseline;
+    }
+
+    .parrafo{
+        display:block;
+        flex-direction:column;
+    }
+
+    .seccion_contenido{
+        flex-direction: column;
+        text-align: center;  
+        width:100%; 
+    }
+
+    .secciones{
+        display:flex;
+        flex-direction:column;
+        text-align:center;
+        display:block;
+    }
+}
+
+
+    
 
 
 
