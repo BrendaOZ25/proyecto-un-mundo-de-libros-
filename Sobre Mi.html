@@ -11,6 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/estilos.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css">
     </head>
  
     <body>
@@ -25,7 +26,46 @@
                 </ul>
             </nav>
         </header>
+        <main>
+        
+            <section>
+            <h2>Galeria</h2>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+        </section>
 
+        <section>
+          <h1>Sobre mi</h1>
+          <p>Hola soy Brenda Oliva Zarate me encantan los libros. en especial las de fantiasia y romanticas aunque suelo leer un poco de todo .tambien soy administradora contable, me encanta escuchar musica de todo tipo no tengo un estilo favorito.</p>
+          <p>Quiero en este espacio poder compartir las aventuras que vivo en los libros y tambien que me den sus opiniones sobre algun libro en especial o sobre cualquier tema que les guste y sea de su interes</p>
+        </section>
+       </main>
+
+        
         <footer class="pie_de_pagina">
             <div>
                 <h4>Contacto</h4>
@@ -35,5 +75,8 @@
                 <a class="iconos" href="https://twitter.com/?lang=es" target="_blank"><img src="Documentacion/twitter.svg" alt="logotipo twitter"></a>
         </div>
         </footer>
+
+
+        <script src="js/bootstrap.bundle.js"></script>
     </body>
 </html> 
