@@ -2,17 +2,17 @@ body{
     margin:0;
     background-color:white;   
 }
+
 a{
     color:white;
     text-decoration:none;
-
 }
+
 ul{
     list-style:none;
 }
 .cabecera{
     background-color:#5f0c96;
-    padding: 16px;
     border:7px solid rgb(112, 58, 7);  
 }
 
@@ -36,6 +36,7 @@ ul{
     background-size:cover;
     min-height: 100vh;
     background-attachment: fixed;
+    min-height: 0vh;
 }
 
 .libros{
@@ -50,6 +51,17 @@ ul{
     color:white;
 }
 
+.libros_reseñas{
+    background-color: rgba(152, 90, 238, 0.2);
+    padding: 16px;
+    margin:20px;
+    margin-top:0;
+    margin-block-end:0;
+    text-align:center;
+    gap: 30px;
+    color:white;
+}
+
 .seccion_contenido{
   width:100%;
 }
@@ -58,6 +70,7 @@ ul{
     flex-direction: end;
     flex-wrap:wrap;
     justify-content:center;
+    font-size: 45px;
 }
 
 .parrafo{
@@ -76,19 +89,52 @@ ul{
     vertical-align:super;
 }
 
+.reseñas{
+     font-size: 35px;
+}
+
+.seccion-form{
+    padding:100px 0px;
+}
+
+.iframe{
+    width:100%;
+}
+
 
 .pie_de_pagina{
     background-color:#5f0c96;
-    padding: 16px;
     border:7px solid rgb(112, 58, 7);
     color:rgb(221, 108, 15);
 }
 
-.iconos{
-    padding:16;
+.di{
+    margin-left: 10px;
 }
 
+.iconos{
+    padding: 5px;
+}
+
+.boton_afuera{
+    padding:10px;
+}
+
+
 @media(max-width:992px){
+    .titulo{
+        font-family: 'Dancing Script', cursive;
+        font-size: 45px;
+        text-align: center;
+        color:rgb(221, 108, 15);
+    }
+
+    .navegacion_lista{
+        display: flex;
+        gap: 16px;
+        padding:10px;
+    }
+    
     .libros{
         background-color: rgba(152, 90, 238, 0.2);
         flex-direction: column-reverse;
@@ -123,6 +169,7 @@ ul{
         display:block;
     }
 }
+
 
 
     
